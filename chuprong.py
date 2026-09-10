@@ -84,14 +84,14 @@ with tab1:
           "Địa chỉ thường trú (Thôn/Xóm, Xã...)"
       )
       thon_lang = st.text_input(
-          "Thôn / Làng tọa lạc thửa đất * (Ví dụ: Làng Hnáp, Thôn 1...)"
+          "Thôn / Làng tọa lạc thửa đất * (Ví dụ: Thôn 1, 2...)"
       )
       so_to = st.text_input("Số tờ bản đồ (nếu biết)")
       so_thua = st.text_input("Số thửa đất (nếu biết)")
 
     with col2:
       dia_chi_thua_dat = st.text_input(
-          "Mô tả thêm khu vực thửa đất (Ví dụ: Khu Đồng Lớn, giáp suối...)"
+          "Mô tả thêm khu vực thửa đất (Ví dụ: Khu Ia Drang, giáp suối...)"
       )
       dien_tich = st.number_input(
           "Diện tích tự khai báo (m²) *", min_value=0.0, value=0.0, step=10.0
