@@ -278,7 +278,7 @@ with tab2:
   password = st.text_input(
       "Nhập mật khẩu quản lý để tiếp tục:", type="password"
   )
-  ADMIN_PASSWORD = "phuc123"
+  ADMIN_PASSWORD = "nguyen123"
 
   if password == ADMIN_PASSWORD:
     st.success("Xác thực thành công! Chào mừng cán bộ quản lý.")
