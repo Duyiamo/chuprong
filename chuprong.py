@@ -59,13 +59,13 @@ def init_db():
 init_db()
 
 st.set_page_config(
-    page_title="Quản lý Hiện trạng Đất đai Cấp Xã", layout="wide"
+    page_title="Quản lý Hiện trạng Đất đai xã Chư Prông", layout="wide"
 )
 
-st.title("🌾 Hệ thống Thu thập & Quản lý Hiện trạng Đất đai Cấp Xã")
+st.title("🌾 Hệ thống Thu thập & Quản lý Hiện trạng Đất đai xã Chư Prông")
 st.markdown(
     "Ứng dụng hỗ trợ ghi nhận vị trí và ranh giới canh tác của hộ dân theo"
-    " từng thôn, kết xuất báo cáo chuyên nghiệp."
+    " từng thôn, kết xuất báo cáo."
 )
 
 tab1, tab2 = st.tabs(
@@ -128,7 +128,7 @@ with tab1:
         " nhật (Polygon/Rectangle)** để khoanh trọn ranh giới khu đất."
     )
 
-    m = folium.Map(location=[13.304687, 108.603443], zoom_start=15)
+    m = folium.Map(location=[13.756477, 107.886725], zoom_start=15)
 
     folium.TileLayer(
         tiles="https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
